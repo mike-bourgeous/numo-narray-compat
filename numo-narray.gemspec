@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = 'numo-narray'
-  spec.version = '0.9.9999-alt-compat'
+  spec.version = '0.9.2.9999-alt-compat'
   spec.authors = ['Mike Bourgeous']
   spec.email = ['contact@mikebourgeous.com']
 

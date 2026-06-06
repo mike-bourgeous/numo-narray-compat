@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    numo-narray (0.9.9999.pre.alt.pre.compat)
+    numo-narray (0.9.2.9999.pre.alt.pre.compat)
       numo-narray-alt (>= 0.10.5)
       rake (~> 13.0)
       rake-compiler (~> 1.1.1)
