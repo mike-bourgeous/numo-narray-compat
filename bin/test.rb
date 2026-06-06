@@ -3,6 +3,7 @@
 
 require 'bundler/setup'
 require 'numo/narray/compat'
+require 'numo/narray/compat/headers'
 
 raise 'Numo::NArray is not present' unless defined?(Numo::NArray)
 raise 'Numo::NArray does not function' unless Numo::SFloat[1,2,3].sum == 6
