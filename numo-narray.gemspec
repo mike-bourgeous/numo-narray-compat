@@ -29,4 +29,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'numo-narray-alt', '>= 0.10'
+  spec.add_dependency 'rake', '~> 13.3'
+  spec.add_dependency 'rake-compiler', '~> 1.3.1'
 end

@@ -1,0 +1,5 @@
+**/*.so
+**/*.bundle
+**/*.dll
+ext/numo
+tmp/**
