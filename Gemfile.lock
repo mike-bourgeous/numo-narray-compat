@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     numo-narray (0.9.9999.pre.alt.pre.compat)
-      numo-narray-alt (~> 0.10.4)
+      numo-narray-alt (>= 0.10)
 
 GEM
   remote: https://rubygems.org/
