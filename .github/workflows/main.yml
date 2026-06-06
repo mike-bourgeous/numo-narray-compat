@@ -26,6 +26,6 @@ jobs:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
       - name: Copy original headers
-        run: rake compile
+        run: bundle exec rake compile
       - name: Verify numo-narray-alt loads
-        run: bin/test.rb
+        run: bundle exec bin/test.rb
