@@ -28,6 +28,8 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ['lib']
 
+  spec.extensions = ['ext/headers/extconf.rb']
+
   spec.add_dependency 'numo-narray-alt', '>= 0.10'
   spec.add_dependency 'rake', '~> 13.0'
   spec.add_dependency 'rake-compiler', '~> 1.1.1'
