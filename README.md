@@ -18,7 +18,12 @@ You should also add a version range dependency for numo-narray-alt.
 ```ruby
 # Add to your Gemfile
 
+# If your gems depend on "~> 0.9.2" or similar:
 gem 'numo-narray', github: 'mike-bourgeous/numo-narray-compat.git', ref: 'compat-9-9999'
+
+# If your gems depend on "~> 0.9.2.1" or similar:
+gem 'numo-narray', github: 'mike-bourgeous/numo-narray-compat.git', branch: 'compat-9-2-x'
+
 gem 'numo-narray-alt', '~> 0.10.4'
 ```
 
