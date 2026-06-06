@@ -3,5 +3,5 @@
 **/*.dll
 ext/numo
 tmp/**
-lib/numo/narray/numo/**/*.h
+lib/numo/narray/**/*.h
 ext/headers/numo
