@@ -27,6 +27,15 @@ gem 'numo-narray', github: 'mike-bourgeous/numo-narray-compat.git', branch: 'com
 gem 'numo-narray-alt', '~> 0.10.4'
 ```
 
+If you want to retrieve numo-narray-alt from a Git source and you get `cannot
+load such file -- numo/narray/alt` when running a fresh `bundle install`, you
+will need to install it from rubygems.org first.  It appears Bundler cannot
+resolve installation order between two git-sourced gems.
+
+```bash
+gem install numo-narray-alt
+```
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
