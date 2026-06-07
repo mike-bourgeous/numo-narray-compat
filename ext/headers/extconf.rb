@@ -3,7 +3,6 @@ require 'fileutils'
 require 'pathname'
 
 # This require line ensures that the numo-narray-alt gem spec is loaded when installing this extension
-require 'bundler/setup'
 require 'numo/narray/alt'
 
 # Used numo-pocketfft as a reference for finding narray.h
