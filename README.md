@@ -24,7 +24,7 @@ gem 'numo-narray', github: 'mike-bourgeous/numo-narray-compat.git', ref: 'compat
 # If your gems depend on "~> 0.9.2.1" or similar:
 gem 'numo-narray', github: 'mike-bourgeous/numo-narray-compat.git', branch: 'compat-9-2-x'
 
-gem 'numo-narray-alt', '~> 0.10.4'
+gem 'numo-narray-alt', '~> 0.10.5'
 ```
 
 If you want to retrieve numo-narray-alt from a Git source and you get `cannot
