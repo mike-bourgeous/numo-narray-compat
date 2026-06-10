@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
 
   spec.extensions = ['ext/headers/extconf.rb']
 
-  spec.add_dependency 'numo-narray-alt', '>= 0.10'
+  spec.add_dependency 'numo-narray-alt', '>= 0.10.5'
   spec.add_dependency 'rake', '~> 13.0'
   spec.add_dependency 'rake-compiler', '~> 1.1.1'
 end
